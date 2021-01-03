@@ -51,7 +51,8 @@ a{
 .menu{
     list-style: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
     font-size: 1.4rem;
 }
 nav a{
@@ -62,6 +63,7 @@ nav a{
 }
 .menu li:last-child a {
     margin-right: 0;
+    
 }
 header .download{
     font-weight: 700;
@@ -102,6 +104,10 @@ header .download{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.video img{
+    margin-right: 5px;
 }
 /* featuresss */
 .features-wrapper{
@@ -174,8 +180,24 @@ footer nav a:last-child {
 	}
 	header nav li:first-child a {
 		display: inline;
-	}
-	
+    }
+    .hero-intro h1{
+        font-size: 2.3rem;
+    }
+	.hero-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-nav .video{
+        margin-top: 1rem;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+    .video img{
+        margin-right: 5px;
+    }
 	nav a {
 		margin-right: 0;
 		font-size: 16px;
